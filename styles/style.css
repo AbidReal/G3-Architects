@@ -275,19 +275,19 @@ article h3 {
   font-size: 45px;
   color: #131313;
 }
-.sponsor-title,
 .sponsor-des {
   text-align: center;
 }
 .sponsor-img {
-  padding: 50px;
+  margin: 30px;
 }
+
 /* sponsor section end  */
 
 /* footer  */
 .footer {
   margin: 120px 0 216px;
-  padding: 40px;
+  padding: 40px 0;
   background-color: #fff4e7;
 }
 .footer-des {
@@ -323,7 +323,8 @@ article h3 {
   .sponsor-des,
   .fact-box,
   .review-des,
-  .fact-des {
+  .fact-des,
+  .footer-des {
     width: 100%;
   }
   .nav {
@@ -364,5 +365,18 @@ article h3 {
     height: 300px;
     width: 300px;
     margin: 24px;
+  }
+  .review-box-container {
+    flex-direction: column;
+  }
+  .review-box {
+    padding: 30px 40px;
+    margin-bottom: 30px;
+  }
+  .footer {
+    margin: 80px 0 80px;
+  }
+  .sponsor-logos {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
