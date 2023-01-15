@@ -354,4 +354,15 @@ article h3 {
     bottom: 40px;
     left: 1px;
   }
+  .facts-container {
+    align-items: center;
+  }
+  .facts-box {
+    flex-direction: column;
+  }
+  .fact-box {
+    height: 300px;
+    width: 300px;
+    margin: 24px;
+  }
 }
