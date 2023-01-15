@@ -336,6 +336,12 @@ article h3 {
   .teams-features {
     flex-direction: column;
   }
+  .description-teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .img-teams {
     grid-template-columns: repeat(1, 1fr);
   }
