@@ -1,0 +1,357 @@
+/* designed on 1920-1080 display */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.5; /* in figma, the line height is more than default line-height */
+}
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.header,
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container,
+.teams-features,
+.features-container,
+.facts-container,
+.bonus-container,
+.footer {
+  width: 1440px;
+  padding-top: 50px;
+}
+/* navigation start */
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-anchor {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #424242;
+  padding: 35px;
+}
+/* navigation end  */
+
+/* banner start  */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.banner-title {
+  padding-top: 100px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.banner-description {
+  width: 862px;
+  line-height: 26px;
+  padding: 30px 0;
+}
+.primary-btn {
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 24px;
+  border-radius: 8px;
+  background: #ff900e;
+}
+
+.banner-pic {
+  margin: 50px 0;
+  width: 100%;
+}
+/* banner end  */
+
+/* teams section start */
+.teams-features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.img-teams {
+  margin: 60px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.team-title {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 53px;
+  color: #727272;
+}
+#of-Our {
+  font-weight: 700;
+  color: #131313;
+}
+#features {
+  font-weight: 700;
+  color: #ff900e;
+}
+.team-des {
+  color: #727272;
+  line-height: 26px;
+  margin: 24px 0 32px;
+}
+/* teams section end  */
+
+/* features section start  */
+.features-container {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-articles {
+  display: flex;
+  flex-direction: column;
+  width: 586px;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  margin: 24px 0;
+}
+.feature-title-des,
+article p {
+  font-weight: 400;
+  color: #727272;
+}
+article h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+  padding-bottom: 10px;
+}
+.features-list {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+.img-architect {
+  width: 100%;
+}
+.experience {
+  background-color: #ff900e;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 46px 0;
+  width: 342px;
+  bottom: 120px;
+  right: 92px;
+  position: relative;
+  z-index: 1;
+}
+#exp-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+}
+#exp-des {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+}
+/* feature section end  */
+
+/* facts section start */
+.facts-container {
+  display: flex;
+  flex-direction: column;
+}
+#som-fact {
+  text-align: left;
+}
+.fact-des {
+  margin-bottom: 100px;
+}
+.fact-des,
+.sponsor-des {
+  color: #727272;
+  margin-top: 10px;
+  width: 542px;
+}
+.facts-box {
+  display: flex;
+  justify-content: space-around;
+}
+.fact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 240px;
+  height: 240px;
+  text-align: center;
+}
+.box-title {
+  color: #424242;
+  font-weight: 600;
+  font-size: 45px;
+}
+.box-des {
+  color: #727272;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* facts section end  */
+
+/* bonus section start */
+.bonus-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.review-heading {
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  margin-top: 120px;
+}
+.review-box-container {
+  display: flex;
+  justify-content: space-around;
+}
+.review-box {
+  background-color: #fff4e7;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 6px 30px rgb(0 0 0 / 8%);
+  margin-bottom: 20px;
+}
+.reviewer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+  padding-bottom: 10px;
+}
+.review-des {
+  width: 542px;
+}
+
+/* bonus section end  */
+
+/* sponsor section start  */
+.sponsor-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsor-img {
+  filter: grayscale(1);
+}
+.sponsor-title,
+#som-fact {
+  margin-top: 130px;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.sponsor-title,
+.sponsor-des {
+  text-align: center;
+}
+.sponsor-img {
+  padding: 50px;
+}
+/* sponsor section end  */
+
+/* footer  */
+.footer {
+  margin: 120px 0 216px;
+  padding: 40px;
+  background-color: #fff4e7;
+}
+.footer-des {
+  text-align: center;
+}
+/* footer end  */
+
+/* bonus, adding animation */
+.fact-box,
+.review-box {
+  transition: all 0.4s ease-out, transform 0.4s;
+}
+.fact-box:hover {
+  background-color: antiquewhite;
+  transform: scale(1.1);
+}
+.review-box:hover {
+  background-color: #ffffff;
+  transform: scale(1.2);
+}
+
+/* responsive mobile*/
+@media only screen and (max-width: 576px) {
+  .container,
+  .teams-features,
+  .features-container,
+  .facts-container,
+  .bonus-container,
+  .footer,
+  .banner-description,
+  .feature-articles,
+  .experience,
+  .sponsor-des,
+  .fact-box,
+  .review-des,
+  .fact-des {
+    width: 100%;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .nav-links {
+    display: none !important;
+  }
+  .teams-features {
+    flex-direction: column;
+  }
+  .img-teams {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-container {
+    flex-direction: column;
+  }
+  .feature-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .experience {
+    border-radius: 8px;
+    padding: 16px 0;
+    width: 300px;
+    bottom: 40px;
+    left: 1px;
+  }
+}
