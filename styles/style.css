@@ -329,9 +329,14 @@ article h3 {
   }
   .nav {
     justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
   }
   .nav-links {
-    display: none !important;
+    padding: 0 0 24px;
+  }
+  .nav-anchor {
+    padding: 0 10px;
   }
   .teams-features {
     flex-direction: column;
